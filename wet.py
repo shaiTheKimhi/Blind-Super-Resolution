@@ -257,7 +257,7 @@ def laplacian(length):
 
 
 def main():
-    imgArr = np.array(plt.imread("DIPSourceHW2.png"))[:, :, 0]
+    imgArr = np.array(plt.imread("Source.png"))[:, :, 0]
     # imgArr = np.transpose(imgArr)
     imgArr /= imgArr.max()
     expandImg = np.zeros((imgArr.shape[0]+2, imgArr.shape[1]+2))
